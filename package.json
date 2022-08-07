@@ -5,7 +5,7 @@
   },
   "scripts": {
     "dev": "node node_modules/nodemon/bin/nodemon.js server.js",
-    "start": "node server",
+    "start": "serve -s build",
     "postinstall": "gulp build"
   },
   "devDependencies": {
